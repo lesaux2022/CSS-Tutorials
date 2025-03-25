@@ -27,7 +27,19 @@ h1 {
 </style>
 </head>
 
+#  CSS inline #
+Un stil inline poate fi folosit pentru a aplica un stil unic pentru un singur element.
+Stilurile inline sunt definite în atributul „stil” al elementului relevant:
 
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="color:blue;text-align:center;">This is a heading</h1>
+<p style="color:red;">This is a paragraph.</p>
+
+</body>
+</html>
 
 
 
