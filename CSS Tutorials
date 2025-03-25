@@ -41,5 +41,11 @@ Stilurile inline sunt definite în atributul „stil” al elementului relevant:
 </body>
 </html>
 
+# Comentarii CSS #
+Un comentariu CSS este plasat în interiorul <style>elementului și începe cu /*și se termină cu */:
 
-
+Exemplu
+/* This is a single-line comment */
+p {
+  color: red;
+}
