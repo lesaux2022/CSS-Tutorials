@@ -1,7 +1,33 @@
-Toate selectoarele simple CSS
+# Toate selectoarele simple CSS #
+
 Selector	Example	Example description
 #id	#firstname	Selects the element with id="firstname"
 .class	.intro	Selects all elements with class="intro"
 *	*	Selects all elements
 element	p	Selects all <p> elements
 element,element,..	div, p	Selects all <div> elements and all <p> elements
+
+
+# CSS extern #
+Stilurile externe sunt definite în cadrul elementului <link>, în interiorul secțiunii <head> a unei pagini HTML:
+<head>
+<link rel="stylesheet" href="mystyle.css">
+</head>
+
+# CSS intern #
+Stilurile interne sunt definite în cadrul elementului <style>, în interiorul secțiunii <head> a unei pagini HTML:
+body {
+  background-color: linen;
+}
+
+h1 {
+  color: maroon;
+  margin-left: 40px;
+}
+</style>
+</head>
+
+
+
+
+
